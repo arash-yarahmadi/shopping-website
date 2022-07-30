@@ -1,0 +1,29 @@
+.login-form input[type=email],.login-form input[type=password]{
+    border: none;
+    border-bottom: 2px solid #dad5d5;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.login-form label{
+    color: #000;
+    font-size: 12px;
+}
+
+.text-modal h5{
+    width: 100%;
+    text-align: center;
+}
+
+#login-form .modal-footer{
+    font-size: 14px;
+    color: rgb(36, 66, 238);
+}
+
+#exampleInputEmail1::-webkit-input-placeholder,
+#exampleInputPassword1::-webkit-input-placeholder{
+    font-size: 12px;
+}
