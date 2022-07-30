@@ -1,0 +1,103 @@
+ 
+  .custom-col-md-6{
+    flex: 0 0 35%!important;
+    max-width: 25%!important;
+  }
+  
+  .custom-col-md-3{
+    flex: 0 0 34%!important;
+    max-width: 33%!important;
+  }
+  .custom-img-col-md-3{
+    flex: 0 0 25%!important;
+    max-width:18%!important;
+  }
+  .custom-img{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+
+/* @media screen and (max-witdh:991px) {
+    .custom-col-md-3{
+        flex: 0 0 50%!important;
+        max-width:50%!important;
+      }
+
+      .custom-col-md-6{
+        flex: 0 0 100%!important;
+        max-width:100%!important;
+      }
+    
+}
+
+@media screen and (max-witdh:991px) {
+    .custom-img-col-md-3{
+        flex: 0 0 50%!important;
+        max-width:50%!important;
+      }
+    
+} */
+
+@media (max-width: 576px){
+    .col-sm-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: 10px;
+    } 
+    
+  }
+
+  /* @media (max-width: 576px){
+    .custom-col-md-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+        
+      } 
+
+
+      .custom-col-md-3{
+          flex: 0 0 50%;
+          max-width:50%;  
+      }
+    
+  } */
+
+
+  @media (max-width: 768px){
+    .custom-col-sm-12{
+      flex: 0 0 100%!important;
+      max-width: 100%!important;
+      margin-bottom: 5px;
+    }
+  }
+
+  /* start setting position icon slider */
+
+  .carousel-control-prev{
+    position: absolute;
+    width: 100%;
+    display: flex;
+  }
+
+  .carousel-control-prev-icon{
+    left: 0;
+    position: absolute;
+  }
+  
+
+  .carousel-control-next{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    
+  }
+
+  .carousel-control-next-icon{
+    position: absolute;
+    right: 0;
+    
+  }
+
+  /* end setting position icon slider */
