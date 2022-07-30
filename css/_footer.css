@@ -1,0 +1,91 @@
+.news-letter-1 h5{
+    font-size: 18px;
+}
+
+.news-letter-1 p{
+    font-size: 14px;
+}
+
+.news-letter-2 p{
+    font-size: 14px;
+    line-height:2;
+}
+
+.input-news-letter::-webkit-input-placeholder{
+    font-size: 14px;
+}
+
+.news-letter-3 button{
+    font-size: 14px;
+}
+
+.main-section-footer h5{
+    font-size: 15px;
+    border-bottom: 3px solid rgb(231, 31, 31);
+    display: inline-flex;
+    padding-bottom: 10px;
+}
+
+.footer-nav-custom li a{
+    font-size: 14px;
+    color: rgb(34, 33, 33);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.footer-nav-custom li a:hover{
+    color: rgb(92, 88, 88);;
+}
+.support-roules{
+    font-size: 40px;
+    color: rgb(34, 139, 224);
+    margin-left: 15px;
+}
+
+.tel-support p{
+    font-size: 12px;
+}
+
+.tel-support a{
+    font-size: 12px;
+    color: rgb(56, 53, 53);
+}
+
+.social-icon li a i{
+    font-size: 18px;
+    color: rgb(102, 101, 101);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.social-icon li a i:hover{
+   color: rgb(80, 15, 201);
+}
+
+/* start lesson 44 */
+.news-letter .row{
+    margin-top: -70px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.075);
+}
+
+.text-modal h5{
+    text-align: center;
+    color: #000;
+}
+.copy-right{
+    background-color: #2b2c2d;
+    text-align: center;
+    padding: 30px 0;;
+    color: #cacaca;
+    font-size:14px;
+    margin-bottom: 0;
+
+}
+.copy-right span{
+    color: rgb(5, 187, 29);
+}
