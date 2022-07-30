@@ -1,0 +1,93 @@
+.bg-top-nav{
+    background-color: #232f3e;
+    color: #fff;
+}
+
+.p-top-nav{
+    padding: 15px;
+    margin: 0;
+}
+
+.custom-top-nav,.p-top-nav{
+    font-size: 14px;
+}
+.custom-top-nav a{
+    padding: 15px;
+}
+
+.custom-top-nav .border-right{
+    border-color: aqua!important;
+}
+
+.custom-btn-font-size{
+    font-size: 14px!important;
+}
+
+.shop-cost i{
+    vertical-align: -9px;
+}
+
+.dropdown i{
+    padding-right: 10px;
+}
+.dropdown .shop-cost{
+    background-color: transparent!important;
+}
+.basket a img{
+    width: 64px;
+    height: 64px;
+}
+.basket{
+    width: 300px;
+}
+.custom-navbar-nav{
+    font-size: 14px;
+}
+.mega-menu{
+    width: 100%!important;
+    position: relative!important;
+}
+/* .custom-navbar-nav .nav-item,.custom-navbar{
+    position: unset!important;
+    
+} */
+
+.custom-navbar-nav .nav-item{
+    position: unset;
+}
+.custom-navbar-nav .nav-item .dropdown-menu{
+    color: #fff;
+    /* background-color: #232f3e!important; */
+    top: 53px;
+    /* border: none; */
+    border-radius: 0;
+
+}
+.imge-dropdown img{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 150px;
+    height: 100%;
+}
+.imge-dropdown ul.nav li a{
+    color: #000!important;
+    font-size: 16px;
+}
+.imge-dropdown ul.nav li a i{
+    vertical-align: -1px;
+    margin-right: -14px;
+}
+.imge-dropdown ul.nav li a{
+    transition: 0.5s ease;
+}
+.imge-dropdown ul.nav li a:hover{
+margin-right: 3px;
+color: rgb(56,136,255)!important;
+}
+.custom-navbar-toggler{
+    color: #fff;
+    border: none!important;
+}
+
+  
