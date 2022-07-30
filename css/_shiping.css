@@ -1,0 +1,35 @@
+.shiping-wrapper img{
+    width: 70px;
+    height: 60px;
+    margin-top: -10px;
+  }
+
+  .shiping-wrapper p{
+     font-size: 10px; 
+     line-height: 2;
+  }
+
+  img.img-size3 {
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+  }
+
+  @media screen and(max-width: 991px){
+      .custom-col-lg-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+        
+      }
+
+      .custom-col-lg-5{
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+      }
+
+     
+  }
+
+  .shiping-wrapper div{
+      padding: 5px;
+  }
