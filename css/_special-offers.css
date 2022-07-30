@@ -1,0 +1,25 @@
+.custom-nav-tabs .nav-link{
+    border:none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    font-size: 15px;
+    color: rgb(73, 72, 72);
+}
+
+.custom-nav-tabs .nav-link.active, .custom-nav-tabs .nav-item.show .nav-link {
+    color: rgb(204, 35, 35)!important;
+    background-color:transparent!important;
+    border-color:transparent!important;
+}
+
+.custom-nav-tabs .nav-link:hover, .custom-nav-tabs .nav-link:focus {
+    border-color:transparent!important;
+}
+
+img.img-cat{
+    width: 250px!important;
+}
+
+/* start lesson 35 */
+
+/* end lesson 35 */
