@@ -1,0 +1,54 @@
+.custom-breadcrumb{
+    margin: 0;
+    background-color: transparent;
+}
+
+.rtl .breadcrumb-item + .breadcrumb-item::before, [dir="rtl"] .breadcrumb-item + .breadcrumb-item::before {
+    content: '>';
+}
+
+.product-page-rate{
+    color: gold;
+    font-size: 18px;
+}
+
+.product-page-rate span{
+    color: rgb(51, 50, 50);
+    font-size: 16px;
+}
+
+.product-page-price{
+    font-size: 18px;
+}
+
+.product-page-price span{
+    color: rgb(209, 65, 65);
+}
+
+.product-page-title{
+    font-size: 20px;
+}
+
+p.describe{
+font-size: 15px;
+line-height: 2;
+}
+
+.product-page-title .fa-heart{
+    color: rgb(209, 65, 65);
+}
+
+.product-page-title .fa-share-alt,
+.product-page-title .fa-bell{
+    color: rgb(59, 58, 58);
+}
+
+.brand-cat{
+    font-size: 15px;
+}
+
+.benefit-list li a i{
+    vertical-align: -1px;
+    font-size: 13px;
+    color: rgb(47, 118, 211);
+}
