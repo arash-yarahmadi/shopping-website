@@ -1,0 +1,82 @@
+.p-title,.p-price{
+    font-size: 12px;
+    color: #2b2929;
+}
+
+.img-slider{
+    align-self: center;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.custom-card{
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.custom-card:hover{
+    box-shadow: 0 0 2px 2px #efefef;
+    z-index: 1;
+}
+
+@media screen and (max-width: 600px){
+    .p-title,.p-price{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 991px){
+    .p-title,.p-price s{
+        display: block;
+        font-size: 12px;
+    }
+    .p-price .price-s{
+        display: block;
+        font-size: 12px;
+    }
+}
+
+.owl-nav{
+    position: absolute;
+    display: flex;
+    top: 180px;
+    width: 100%;
+    font-size: 30px;
+    
+}
+
+.owl-next{
+    left: 0;
+    position: absolute;
+}
+
+.owl-next,.owl-prev{
+    width: 35px;
+}
+
+.owl-next span,.owl-prev span{
+    font-size: 40px;
+    background: #fff;
+    box-shadow: 0 0 2px 2px #c5c4c4;
+    display: block; 
+}
+/* lessen 41 */
+.owl-carousel-brand .owl-nav{
+    top: 55px;
+}
+
+.owl-carousel-brand .owl-nav .owl-next,
+.owl-carousel-brand .owl-nav .owl-prev{
+   width: 30px; 
+} 
+
+.owl-carousel-brand .owl-nav .owl-next span,
+.owl-carousel-brand .owl-nav .owl-prev span{
+    font-size: 35px; 
+}
+/* lessen 41 */
