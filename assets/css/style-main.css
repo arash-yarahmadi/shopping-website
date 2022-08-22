@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: "vazir-medium";
-    src: url(../font/Vazir-Medium.eot) format("eot"), url(../font/Vazir-Medium.woff) format("woff"), url(../font/Vazir-Medium.woff2) format("woff");
+    src: url(assets/font/Vazir-Medium.eot) format("eot"), url(assets/font/Vazir-Medium.woff) format("woff"), url(assets/font/Vazir-Medium.woff2) format("woff");
     font-weight: 700;
     font-style: "normal";
   }
