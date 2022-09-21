@@ -482,6 +482,10 @@ mark,
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
 }
 
 .figure {
@@ -514,6 +518,10 @@ kbd {
   color: #fff;
   background-color: #212529;
   border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
 }
 
 kbd kbd {
@@ -575,6 +583,7 @@ pre code {
     max-width: 1140px;
   }
 }
+  
 
 .row {
   display: flex;
@@ -3536,8 +3545,6 @@ input[type="button"].btn-block {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
-  -webkit-print-color-adjust: exact;
-  color-adjust: exact;
 }
 
 .custom-control-inline {
